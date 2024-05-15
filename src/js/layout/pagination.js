@@ -23,17 +23,10 @@ let onClickPage = 1;
 let btnSummary = 2;
 
 export function pagination(query, result) {
-  console.log('query:', query);
-  // console.log('query:', query.split('&page=')[0]);
-  // console.log('query:', query.indexOf('&page='));
-
   searchQuery = query;
   onClickPage = result.page;
 
   let totalPages = result.total_pages > 500 ? 500 : result.total_pages;
-
-  console.log('result:', result);
-  console.log('result.total_pages:', result.total_pages);
 
   cleanInnerMarkup(paginationBtnList);
   exchangeObjectData(result);

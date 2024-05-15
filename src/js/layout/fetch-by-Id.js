@@ -19,17 +19,6 @@ filmsEl.addEventListener('click', onCardClick);
 
 //---------click tracking function----------------
 function onCardClick(e) {
-  // console.log('e.srcElement.className:', e.srcElement.className);
-  // console.log('(e):', e);
-  // console.log('(e.path):', e.path);
-  // // console.log(e.path.find(num => num.className === 'films__item').dataset.id);
-  // console.log('event.target', e.target);
-  // console.log(
-  //   'event.target.closest(.films__item).dataset.id',
-  //   e.target.closest('.films__item').dataset.id,
-  // );
-
-  // console.log('getId(e):', getId(e));
   switch (e.srcElement.className) {
     case 'film__trailer':
       openVideo(getId(e));

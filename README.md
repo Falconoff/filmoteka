@@ -1,7 +1,7 @@
 # filmoteka
 
 Forked and fixed from
-(https://github.com/A-V-Kuzmich/filmoteka)[https://github.com/A-V-Kuzmich/filmoteka]
+[https://github.com/A-V-Kuzmich/filmoteka](https://github.com/A-V-Kuzmich/filmoteka)
 
 Team project 04.11 - 19.11 2021
 
