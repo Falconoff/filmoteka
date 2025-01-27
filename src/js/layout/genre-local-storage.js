@@ -10,5 +10,5 @@ export function setGenresToLocalStorage() {
 setGenresToLocalStorage();
 
 export function getGenresFromLocalStorage() {
-  return getFromLocalStorage('genres')?.genres;
+  return getFromLocalStorage('genres').genres || {};
 }
